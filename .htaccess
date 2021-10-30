@@ -1,0 +1,7 @@
+# BLOQUEAR ACESSO AO ARQUIVO LOG.TXT #
+# BLOCK ACCESS TO LOG.TXT FILE #
+
+<Files ./inscription/log.txt>
+Order Allow,Deny
+Deny from all
+</Files>
